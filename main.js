@@ -1,5 +1,5 @@
 const clientId = 'mqttjs_' + Math.random().toString(16).substr(2, 8)
-const host = 'mqtt://broker.emqx.io:1883'
+const host = 'broker.emqx.io:1883'
 const publishTopic = 'Matheus/URA'
 var ledIsOn = false
 var msg = 'off'
